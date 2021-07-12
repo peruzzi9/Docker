@@ -2,6 +2,11 @@ const express=require('express');
 const apiRoute=require('./apirouter')
 const app=express();
 
+const expressJSDocSwagger = require('express-jsdoc-swagger');
+const options =  require('./swaggerOptions');
+expressJSDocSwagger(app)(options);
+
+
 const HOST='0.0.0.0';
 const PORT=3000;
 
