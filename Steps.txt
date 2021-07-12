@@ -1,0 +1,7 @@
+1- create server nodejs file for testing
+2- create package.json ... npm init
+3- create docker empty file <Dockerfile> by :
+ - npm install touch-cli -g
+ - run command : touch Dockerfile
+ 
+4- follow document steps .
