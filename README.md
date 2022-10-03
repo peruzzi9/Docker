@@ -1,4 +1,12 @@
 
+# === 22/09/2022  ===
+# Swagger example 
+- add explanation comments and images
+- extend Swagger examples ... POST API
+- With express-jsdoc-swagger docs will be automatically generated with every server restart .
+- 
+
+
 # === 12/07/2021  ===
 # Swagger example 
 - https://www.npmjs.com/package/express-jsdoc-swagger
@@ -10,4 +18,4 @@
 
 # === 09/07/2021  ===
 # docker simple example 
-- create sipmple image for simple nodejs server .
+- create simple image for simple nodejs server .

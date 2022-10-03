@@ -1,11 +1,14 @@
 module.exports=  options = {
+  // it will display on the top of swagger page
     info: {
       version: '1.0.0',
-      title: 'Albums store',
+      title: 'Albums store', 
+      description:'Albums store description',
       license: {
         name: 'MIT',
       },
     },
+    // it will display on the top of swagger page as a choice to insert user name and password for those APIs
     security: {
       BasicAuth: {
         type: 'http',
