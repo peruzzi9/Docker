@@ -1,3 +1,61 @@
+# === 31/10/2022 2===
+# docker main commands 
+- display all docker images :
+ ```
+docker images
+ ```
+ -- Get list of container ID running 
+```
+$ docker ps 
+```
+-- Print app output
+```
+$ docker logs <container id or name>
+```
+-- Run Example
+```
+Running on http://localhost:8080
+```
+-- Kill our running container
+```
+$ docker kill <container id or name>
+```
+kill command doesn't give the container process an opportunity to exit gracefully
+
+
+- Run docker image command ( first time then we can use start)
+  ```
+  docker run -p 49160:3000 -d hello alaaalkhatib/node-web-app
+  
+   ```
+
+   
+- Start running image command
+  ```
+  docker start <container id or name>
+  
+   ```
+
+- Stop running image command
+  ```
+  docker stop <container id or name>
+  
+   ``` 
+
+   docker pause : 
+   would still keep memory portion while the container is paused. 
+   This memory is used when the container is resumed. 
+
+   docker stop : 
+   releases the memory used after the container is stopped.
+
+   
+- Remove Container command
+  ```
+  docker rm <container id or name>
+  
+   ```
+
 # === 31/10/2022  ===
 # docker simple example ( Step by step )
 - https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
@@ -73,7 +131,9 @@ $ docker kill <container id or name>
 # === 12/07/2021  ===
 # Swagger example 
 - https://www.npmjs.com/package/express-jsdoc-swagger
+```
 - npm i express-jsdoc-swagger --save
+```
 - create swagger option file .
 - add swagger code to server.js
 - add comments and description to APIs
