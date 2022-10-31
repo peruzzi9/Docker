@@ -1,5 +1,34 @@
 # === 31/10/2022 2===
+# docker Creating Repository / push 
+- We can create new Repository using docker website or docker desktop interfaces ( public or private Repository )
+- we will use this Repository to push (update) / pull our docker images
+- we can push using docker desktop interface or using commands
+
+- First display exiting images and take image ID you wanna push.  
+```
+ docker images
+```
+- second create locala repository for image Id (35219c018fe6).  (firsttry is tag name)
+```
+ docker tag 35219c018fe6 alaaalkhatib/node-web-app:firsttry
+```
+display the new added image/repository
+```
+ docker images
+```
+then we can push :
+```
+docker push alaaalkhatib/node-web-app:firsttry
+```
+
+- now you can find the new repository / image (node-web-app:firsttry) existing in local and remote repositories .
+# === 31/10/2022 2===
 # docker main commands 
+- create simple image for simple nodejs server .(docker build . -t docker_user_name/docker_image_name)
+  run command : 
+  ```
+  docker build . -t alaaalkhatib/node-web-app
+  ```
 - display all docker images :
  ```
 docker images
