@@ -22,7 +22,7 @@ docker push alaaalkhatib/node-web-app:firsttry
 ```
 - alaaalkhatib/node-web-app is the repository 
 - now you can find the new commit/tagname (alaaalkhatib/node-web-app:firsttry) existing in local and remote repositories .
-
+- please check docker.png attached with project 
 
 # === 31/10/2022 2===
 # docker main commands 
