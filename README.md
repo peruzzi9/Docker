@@ -4,15 +4,15 @@
  ```
 docker images
  ```
- -- Get list of container ID running 
+- Get list of container ID running 
 ```
 $ docker ps 
 ```
--- Print app output
+- Print app output
 ```
 $ docker logs <container id or name>
 ```
--- Run Example
+- Run Example
 ```
 Running on http://localhost:8080
 ```
