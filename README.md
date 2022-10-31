@@ -1,4 +1,14 @@
 # === 31/10/2022 2===
+# docker pull image 
+- we will delete last image "node-web-app:firsttry "from local using docker desktop to test pull remotely
+- then we will execute pull command :
+```
+ docker pull alaaalkhatib/node-web-app:firsttry
+```
+
+then check docker desktop to see that "alaaalkhatib/node-web-app:firsttry" is created again .
+
+# === 31/10/2022 2===
 # docker Creating Repository / push 
 - We can create new Repository using docker website or docker desktop interfaces ( public or private Repository )
 - we will use this Repository to push (update) / pull our docker images
