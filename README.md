@@ -8,7 +8,7 @@
 ```
  docker images
 ```
-- second create locala repository for image Id (35219c018fe6).  (firsttry is tag name)
+- second create locala repository for image Id (35219c018fe6).  (firsttry is tag name : like commit in git)
 ```
  docker tag 35219c018fe6 alaaalkhatib/node-web-app:firsttry
 ```
@@ -20,8 +20,10 @@ then we can push :
 ```
 docker push alaaalkhatib/node-web-app:firsttry
 ```
+- alaaalkhatib/node-web-app is the repository 
+- now you can find the new commit/tagname (alaaalkhatib/node-web-app:firsttry) existing in local and remote repositories .
 
-- now you can find the new repository / image (node-web-app:firsttry) existing in local and remote repositories .
+
 # === 31/10/2022 2===
 # docker main commands 
 - create simple image for simple nodejs server .(docker build . -t docker_user_name/docker_image_name)
