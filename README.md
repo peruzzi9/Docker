@@ -16,7 +16,7 @@ $ docker logs <container id or name>
 ```
 Running on http://localhost:8080
 ```
--- Kill our running container
+- Kill our running container
 ```
 $ docker kill <container id or name>
 ```
