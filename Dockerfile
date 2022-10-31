@@ -18,9 +18,10 @@ RUN npm install
 # If you are building your code for production
 # RUN npm ci --only=production
 
-# Bundle app source .. To bundle your app's source code inside the Docker image, use the COPY instruction:
+# Bundle/include app source .. To bundle your app's source code inside the Docker image, use the COPY instruction:
 COPY . .
 
+# binds to port 3000 ... means run image on port 3000
 EXPOSE 3000
 
 # CMD [ "npm", "start" ] 
