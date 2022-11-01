@@ -4,11 +4,12 @@
 What is Docker ?
 Docker is an open platform to build, ship and run applications by wrapping them in “containers”.
 
--What is “container” ? 
+- What is “container” ? 
  A container is a runtime instance of an image — what the image becomes in memory when actually executed. It runs completely isolated from the host environment by default, only accessing host files and ports if configured to do so.
+ 
 note : you can run one servive per container .
 
--What is an “image” ? 
+- What is an “image” ? 
  An image is a lightweight, stand-alone, executable package that includes everything needed to run a piece of software, including the code, a runtime, libraries, environment variables, and config files.
 
 ![alt text](https://miro.medium.com/max/720/1*PYGO9RYjT2MXPg0m72nwZQ.png)
