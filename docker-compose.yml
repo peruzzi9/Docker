@@ -1,0 +1,12 @@
+version: '3'
+services:
+  app:
+    build: .
+    volumes:
+      - .:/
+    container_name: docker-node-tut
+    restart: always
+    ports:
+      - 3000:3000
+    command: bash -c /start.sh
+    env_file: .env

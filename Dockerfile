@@ -14,7 +14,7 @@ WORKDIR /
 # where available (npm@5+)
 COPY package*.json ./
 
-RUN npm install
+RUN npm install  -g nodemon
 # If you are building your code for production
 # RUN npm ci --only=production
 
@@ -28,4 +28,6 @@ EXPOSE 3000
 # or CMD npm start
 
 # use dumb-init tool for enabling send sign to process and act with ctrl+c
-CMD ["dumb-init", "node", "server.js"]
+
+#CMD ["dumb-init", "node", "server.js"]
+CMD ./start.sh

@@ -35,9 +35,12 @@ In the end, it's all about collaboration.
 
 https://docs.docker.com/desktop/dev-environments/create-dev-env/
 
-###practical example Nodejs and mongodb 
+###practical example Nodejs   
 
-https://www.digitalocean.com/community/tutorials/containerizing-a-node-js-application-for-development-with-docker-compose
+https://medium.com/@pedro.schleder/using-docker-compose-to-create-a-node-js-app-part-2-26416d221af6
+
+## What is Docker Compose
+Compose is a tool to running multi-container environments. With Docker Compose we can write a docker-compose.yml file with the details for the containers we need and spin up and down the whole environment with a single command. It makes managing your environment a lot simpler than using a lot of Dockerfile files individually (all parts of your application, like API, database, front-end, etc.).
 
 # === 1/11/2022 ===
 #  Creating Docker Dev Environments Image 
