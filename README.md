@@ -35,9 +35,16 @@ In the end, it's all about collaboration.
 
 https://docs.docker.com/desktop/dev-environments/create-dev-env/
 
-###practical example Nodejs and mongodb
+###practical example Nodejs and mongodb 
 
 https://www.digitalocean.com/community/tutorials/containerizing-a-node-js-application-for-development-with-docker-compose
+
+# === 1/11/2022 ===
+#  Creating Docker Dev Environments Image 
+
+- adding and configuring docker-compose.yml file .
+
+https://blog.logrocket.com/node-js-docker-improve-dx-docker-compose/#dockerize-app-docker-multi-stage-build
 
 # === 31/10/2022 2===
 # docker pull image 
