@@ -42,7 +42,9 @@ https://www.digitalocean.com/community/tutorials/containerizing-a-node-js-applic
 # === 1/11/2022 ===
 #  Creating Docker Dev Environments Image 
 
-- adding and configuring docker-compose.yml file .
+- adding and configuring docker-compose.yaml file .
+- npm i docker-compose
+- check docker-compose.yaml config by executing command : ``` docker-compose ps ```
 
 https://blog.logrocket.com/node-js-docker-improve-dx-docker-compose/#dockerize-app-docker-multi-stage-build
 
