@@ -1,21 +1,21 @@
 # Dockerization 
 ![alt text](https://miro.medium.com/max/786/1*rtLO2QWTWYvSrAW7dQnb7g.png)
 
-What is Docker ?
+## What is Docker ?
 Docker is an open platform to build, ship and run applications by wrapping them in “containers” ###Deployment###.
 
-- ##What is “container” ? 
+## What is “container” ? 
  A container is a runtime instance of an image — what the image becomes in memory when actually executed. It runs completely isolated from the host environment by default, only accessing host files and ports if configured to do so.
  
 note : you can run one servive per container .
 
-- ##What is an “image” ? 
+## What is an “image” ? 
  An image is a lightweight, stand-alone, executable package that includes everything needed to run a piece of software, including the code, a runtime, libraries, environment variables, and config files.
 
 ![alt text](https://miro.medium.com/max/720/1*PYGO9RYjT2MXPg0m72nwZQ.png)
 
 
-##Is Docker alternative to GitHub?
+## Is Docker alternative to GitHub?
 Docker belongs to "Virtual Machine Platforms & Containers" category of the tech stack, while GitHub can be primarily classified under "Code Collaboration & Version Control".
 
 Git and Docker are completely different and often used both at the same time. However both have repositories and both can be used to store and deliver code
@@ -29,9 +29,9 @@ And it's a container that you can use yourself or share with others.
 
 In the end, it's all about collaboration. 
 
-####But you aren't sharing an image that you have to push and pull
+#### But you aren't sharing an image that you have to push and pull
 
-###please check this
+### please check this
 
 https://docs.docker.com/desktop/dev-environments/create-dev-env/
 
