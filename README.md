@@ -46,6 +46,7 @@ Compose is a tool to running multi-container environments. With Docker Compose w
 # === 1/11/2022 ===
 #  Creating Docker Dev Environments Image 
 - **First of all** try the example of Creating Docker Dev Environments Image from docker sample **docker github repository sample project**, using Docker desktop (  I tried and opened project in VS Code ), this project is using Go language , I did not need to install any software to run it inside VS Code terminal , I just run command ```go run main.go```
+then open ```http://localhost:8080/``` in browser.
 **I guess docker will provide all softwares needed to develope the code (nodejs , npm ,GO ....)**
 
 - adding and configuring docker-compose.yaml file inside new folder( .docker ).
