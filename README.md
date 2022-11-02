@@ -31,7 +31,19 @@ Docker belongs to "Virtual Machine Platforms & Containers" category of the tech 
 
 Git and Docker are completely different and often used both at the same time. However both have repositories and both can be used to store and deliver code
 
-# Use Docker for developing ( distributing code with environment ) 
+# Use Docker for Deployment  
+## Continuous Integration with Docker
+Continuous Integrations CI ( Jenkinse )( automating  building  and code testing with every developer change / repository change )
+
+![alt text](https://cignitiblog-e5e3.kxcdn.com/wp-content/uploads/Continuous-Integration-with-Docker.png)
+
+- CI server ( Jenkinse ) build the Docker Image after it has built the application. 
+- The application goes inside the image, and the image is then pushed to Docker hub. 
+- On another host, either QA/Dev/Production environment, pull the nearly completed build from the Docker Hub and run the Container which will run your application.
+
+
+
+# Use Docker for Developing ( distributing code with environment ) 
 # Docker Dev Environments 
 
 allows you to define the code , tooling, dependencies, and runtime stack  ( db , nodejs , mongodb ...)  to develop your app inside a container. 
