@@ -56,6 +56,11 @@ Compose is a tool to running multi-container environments. With Docker Compose w
 - **Note** : after fixing many issues I stopped on this issue :
   **Error: EPERM: operation not permitted, scandir '/proc/1/map_files/563100f53000-563100f72000'**
 
+- **Note** : Creating Docker Dev Environments Image does not succeeded on windows using git repository or local project 
+            always give wrong project name ( inside docker desktop )
+
+- **Note** : this test is not completed 
+
 https://blog.logrocket.com/node-js-docker-improve-dx-docker-compose/#dockerize-app-docker-multi-stage-build
 
 # === 31/10/2022 2===
