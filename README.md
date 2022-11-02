@@ -4,6 +4,8 @@
 ## What is Docker ?
 Docker is an open platform to build, ship and run applications by wrapping them in “containers” ( **Build , Test and Deploy quickly** ).
 Docker containers, unlike virtual machines, **can be distributed on any platform without causing compatibility issues**. Your application will remain system agnostic, making it easier to use, build, manage, and deploy to any host system or cloud.
+- **Again** Docker is a platform that allows developers to containerize and easily ship software.  
+- It helps **eliminate the overhead of configuring environments** to run software by, essentially, shipping the environment along with your code.
 
 ## What is “container” ? 
  **A container is a runtime instance of an image**
