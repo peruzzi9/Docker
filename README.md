@@ -44,10 +44,17 @@ Compose is a tool to running multi-container environments. With Docker Compose w
 
 # === 1/11/2022 ===
 #  Creating Docker Dev Environments Image 
-
-- adding and configuring docker-compose.yaml file .
+- First of all try the example of Creating Docker Dev Environments Image from docker sample **docker github repository sample project**, using Docker desktop (  I tried and opened project in VS Code )
+- adding and configuring docker-compose.yaml file inside new folder( .docker ).
 - npm i docker-compose
-- check docker-compose.yaml config by executing command : ``` docker-compose ps ```
+- check docker-compose.yml config by executing command : ``` docker-compose ps ```
+- create batch script to start up depending on env configuration and run it by docker
+- execute : ```docker-compose up``` 
+  this command will (Builds Image, (re)creates, starts, and attaches to containers for a service.)
+  check docker desktop and you will find image is created , also container is created and running
+
+- **Note** : after fixing many issues I stopped on this issue :
+  **Error: EPERM: operation not permitted, scandir '/proc/1/map_files/563100f53000-563100f72000'**
 
 https://blog.logrocket.com/node-js-docker-improve-dx-docker-compose/#dockerize-app-docker-multi-stage-build
 

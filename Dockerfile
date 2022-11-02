@@ -4,6 +4,8 @@ FROM node:lts-alpine
 
 # tool for enabling send sign to process and act with ctrl+c
 RUN apk add dumb-init
+# alpine images doesn't have bash installed out of box. You need to install it separately.
+RUN apk update && apk add bash
 
 # ENV NODE_ENV production
 # Create app directory ... a directory to hold the application code inside the image
@@ -12,8 +14,8 @@ WORKDIR /
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
 # where available (npm@5+)
-COPY package*.json ./
-
+COPY package.json ./
+RUN npm install 
 RUN npm install  -g nodemon
 # If you are building your code for production
 # RUN npm ci --only=production
