@@ -8,7 +8,7 @@ Docker is an open platform to build, ship and run applications by wrapping them 
  **A container is a runtime instance of an image**
  — what the image becomes in memory when actually executed. It runs completely isolated from the host environment by default, only accessing host files and ports if configured to do so.
  
-note : you can run one servive per container .
+note : you can run one service per container .
 
 ## What is an “image” ? 
  An image is a lightweight, stand-alone, executable package that includes everything needed to run a piece of software, including the code, a runtime, libraries, environment variables, and config files.
@@ -45,7 +45,9 @@ Compose is a tool to running multi-container environments. With Docker Compose w
 
 # === 1/11/2022 ===
 #  Creating Docker Dev Environments Image 
-- First of all try the example of Creating Docker Dev Environments Image from docker sample **docker github repository sample project**, using Docker desktop (  I tried and opened project in VS Code )
+- **First of all** try the example of Creating Docker Dev Environments Image from docker sample **docker github repository sample project**, using Docker desktop (  I tried and opened project in VS Code ), this project is using Go language , I did not need to install any software to run it inside VS Code terminal , I just run command ```go run main.go```
+**I guess docker will provide all softwares needed to develope the code (nodejs , npm ,GO ....)**
+
 - adding and configuring docker-compose.yaml file inside new folder( .docker ).
 - npm i docker-compose
 - check docker-compose.yml config by executing command : ``` docker-compose ps ```
