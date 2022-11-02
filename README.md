@@ -60,6 +60,14 @@ then open ```http://localhost:8080/``` in browser.
   **Error: EPERM: operation not permitted, scandir '/proc/1/map_files/563100f53000-563100f72000'**
   **Error fixed**
   https://stackoverflow.com/questions/47382957/docker-build-image-glob-error-error-eperm-operation-not-permitted-scandir/47383952#47383952
+- after fixing error so ```docker-compose up``` is running now without any error (build new image and run container )
+- I could not push generated image , I got error , for that follow this steps
+- to push this image we follow these steps :
+  ```docker images```
+  then take image id and create local repository for this image
+  ```docker tag d4f81128889b alaaalkhatib/node-web-app:after_error_fix```
+  this will create new local repository with tag name "after_error_fix"
+  **now we can push successfully useng commands line or docker desktop**
 
 - **Note** : Creating Docker Dev Environments Image does not succeeded on windows using git repository or local project 
             always give wrong project name ( inside docker desktop )
