@@ -6,5 +6,5 @@ services:
     restart: always
     ports:
       - 3000:3000
-    command: bash -c /start.sh
+    command: bash -c /app/start.sh
     env_file: .env
