@@ -8,6 +8,11 @@ Docker containers, unlike virtual machines, **can be distributed on any platform
 - It helps **eliminate the overhead of configuring environments** to run software by, essentially, shipping the environment along with your code.
 - It allows you to freely ship your apps anywhere anytime without any worries. All you need to do is just install Docker on the target machine and run universal commands to get the project running in a matter of minutes.
 
+###Dependency Management Made Easier with Docker
+-For example,  if one of your projects requires SQL and another project requires MariaDB, you have to uninstall one to get started with the other, and that’s going to be a serious mess for you leaving your other project unusable.
+
+Docker is here for the rescue! It provides a dependency management mechanism where each project/app can be isolated with all its dependencies in a separate container and the cherry on the top is that **you can run multiple apps (containers) concomitantly on the same machine**.
+
 
 ## What is “container” ? 
  **A container is a runtime instance of an image**
