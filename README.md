@@ -43,7 +43,6 @@ https://medium.com/@pedro.schleder/using-docker-compose-to-create-a-node-js-app-
 ## What is Docker Compose
 Compose is a tool to running multi-container environments. With Docker Compose we can write a docker-compose.yml file with the details for the containers we need and spin up and down the whole environment with a single command. It makes managing your environment a lot simpler than using a lot of Dockerfile files individually (all parts of your application, like API, database, front-end, etc.).
 
-# === 1/11/2022 ===
 #  Creating Docker Dev Environments Image 
 - **First of all** try the example of Creating Docker Dev Environments Image from docker sample **docker github repository sample project**, using Docker desktop (  I tried and opened project in VS Code ), this project is using Go language , I did not need to install any software to run it inside VS Code terminal , I just run command ```go run main.go```
 then open ```http://localhost:8080/``` in browser.
