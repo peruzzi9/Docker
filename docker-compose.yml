@@ -1,10 +1,20 @@
-version: '3'
+version: '3' # compose version
 services:
-  alaa-app:
-    build: .  
+  alaa-app:   # app name
+  # image: <image path fro docker repository > to run build on other machine using image and not local dir
+  # we use image as replacement to build: section
+    build: .  # directory where dockerfile located for build image , "." means same dir  
     container_name: docker-node-tut
     restart: always
     ports:
-      - 3000:3000
+      - 3000:3000 # machine access port from outside : our appication / image port container port
     command: bash -c /app/start.sh
     env_file: .env
+    links:
+     - mongodb # connect our application with this database service
+
+ # you can back to coursera course to see how we connect our code with this configuration and this service 
+  mongodb: # we can name it as we want
+   image:mongo # run this service from this image
+   ports:
+   - 27017:27017 # port of this database service

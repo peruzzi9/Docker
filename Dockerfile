@@ -4,7 +4,7 @@ FROM node:latest
   
 
 # ENV NODE_ENV production
-# Create app directory ... a directory to hold the application code inside the image
+# Create app directory(if not exist) (inside container)... a directory to hold the application code inside the image
 WORKDIR /app
 
 # Install app dependencies
@@ -12,7 +12,7 @@ WORKDIR /app
 # where available (npm@5+)
 COPY package.json /app/package.json
 
-# while we copied package.json files then > npm install comand will only install new command
+# while we copied package.json files then > npm install comand will only install new libraries / new added libraries
 RUN npm install 
 RUN npm install  -g nodemon
 # If you are building your code for production
